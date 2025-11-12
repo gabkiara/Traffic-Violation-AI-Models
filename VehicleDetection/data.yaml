@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Ambulance', 'Bicycle', 'Bus', 'E-Tricycle', 'Jeepney', 'Motorcycle', 'Multicab', 'Pickup', 'SUV', 'Sedan', 'Tricycle', 'Truck', 'Van']
+
+roboflow:
+  workspace: ccitcapstone
+  project: vehicle-detection-mvrpa
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ccitcapstone/vehicle-detection-mvrpa/dataset/7
