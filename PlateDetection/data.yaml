@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cars-license-plate', 'motor-license-plate']
+
+roboflow:
+  workspace: ccitcapstone
+  project: plate-detection-2b68r
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ccitcapstone/plate-detection-2b68r/dataset/4
