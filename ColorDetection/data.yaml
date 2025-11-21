@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 10
-names: ['black', 'blue', 'green', 'grey', 'orange', 'pink', 'red', 'silver', 'white', 'yellow']
+nc: 9
+names: ['black', 'blue', 'green', 'grey-silver', 'orange', 'pink', 'red', 'white', 'yellow']
 
 roboflow:
-  workspace: ccitcapstone
-  project: vehicle-colors-cpmeo
-  version: 4
+  workspace: capstone-kynpf
+  project: vehicle-colors-cpmeo-vve2w
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/ccitcapstone/vehicle-colors-cpmeo/dataset/4
+  url: https://universe.roboflow.com/capstone-kynpf/vehicle-colors-cpmeo-vve2w/dataset/2
