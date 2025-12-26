@@ -1,10 +1,5 @@
 # Traffic-Violation-AI-Models
 
-Versions:
-TricycleBodyNumberDetectionB
-PlateDetectionD
-VehicleDetectionH
-ViolationDetectionA
+Created AI Models for Smart Highway Surveillance: Real-Time Traffic Violation Detection Using YOLOv8 and IP Camera, a Capstone project. 
 
-run pip install ultralytics deep-sort-realtime easyocr opencv-python-headless torch torchvision
-before running run_ult.py. 
+![Uploading output_vio(1).gif…]()
